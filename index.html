@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OAFBLOG — Vintage NBA Daily</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="topline">EST. 2026 • THE DAILY HOOPS ARCHIVE</div>
+  <h1>OAFBLOG<span>.COM</span></h1>
+  <p class="tagline">Vintage NBA basketball, one big man at a time.</p>
+</header>
+<nav>
+  <a href="#today">TODAY'S CARD</a>
+  <a href="#archive">ARCHIVE</a>
+  <a href="#about">ABOUT</a>
+</nav>
+
+<main>
+<section id="today" class="hero">
+  <div>
+    <div class="eyebrow">PLAYER OF THE DAY</div>
+    <h2 id="playerName"></h2>
+    <p id="dateLine" class="date"></p>
+    <p id="playerSummary"></p>
+    <div class="chips"><span id="playerYears"></span><span id="playerPos"></span><span id="playerTeam"></span></div>
+  </div>
+  <div class="card-wrap">
+    <div class="trading-card">
+      <div class="card-head">OAFBLOG • VINTAGE HOOPS</div>
+      <div class="photo-frame"><img id="playerImage" alt=""></div>
+      <div class="card-name" id="cardName"></div>
+      <div class="card-meta" id="cardMeta"></div>
+      <div class="card-footer">DAILY PLAYER • 1970–1999 ERA</div>
+    </div>
+  </div>
+</section>
+
+<section id="oaf" class="oaf-feature">
+  <div class="oaf-stamp">SPECIAL FEATURE</div>
+  <div class="oaf-copy">
+    <div class="eyebrow">THE DAILY HONOR</div>
+    <h2>WHO’S THE OAF<br>OF THE DAY?</h2>
+    <p id="oafText"></p>
+    <p class="oaf-rule">A lovingly unofficial award for unforgettable hoops, questionable decisions, and maximum personality.</p>
+  </div>
+  <div class="oaf-badge">
+    <div class="badge-top">OAFBLOG</div>
+    <div class="badge-big">OAF<br>OF THE<br>DAY</div>
+    <div class="badge-bottom" id="oafName"></div>
+  </div>
+</section>
+
+<section id="archive">
+  <div class="section-head"><h2>THE ARCHIVE</h2><span>ONE CARD. EVERY DAY.</span></div>
+  <div id="archiveGrid" class="grid"></div>
+</section>
+
+<section id="about" class="about">
+  <h2>ABOUT OAFBLOG</h2>
+  <p>A personal, old-school NBA scrapbook inspired by the trading-card era. The daily feature rotates automatically based on the calendar date, so the site can be left alone and still serve a new player each day.</p>
+  <p class="small">Player information is presented as historical reference. Trading-card images should be replaced with images you have permission to use or licensed/public-domain images.</p>
+</section>
+</main>
+<footer>OAFBLOG.COM • VINTAGE NBA • NO FANCY ALGORITHMS, JUST HOOPS</footer>
+<script src="players.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
